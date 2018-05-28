@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="duke" class="com.springinaction.springdio.xml.Juggler"></bean>
+    <bean id="sonnect29" class="com.springinaction.springdio.xml.Sonnect29"></bean>
+    <bean id="poeticDuke" class="com.springinaction.springdio.xml.PoeticJuggler">
+        <constructor-arg value="15"></constructor-arg>
+        <constructor-arg ref="sonnect29"></constructor-arg>
+    </bean>
+    <bean id="kenny" class="com.springinaction.springdio.xml.Instrumentalist">
+        <property name="song" value="This is me"></property>
+    </bean>
+    <bean id="saxphone" class="com.springinaction.springdio.xml.Saxophone"></bean>
+    <bean id="kenny2" class="com.springinaction.springdio.xml.Instrumentalist">
+        <property name="song" value="This is me"></property>
+        <property name="instrument" ref="saxphone"></property>
+    </bean>
+</beans>
