@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        ApplicationContext ctx=new ClassPathXmlApplicationContext("beans.xml");
+        ApplicationContext ctx=new ClassPathXmlApplicationContext("com/springinaction/springdio/xml/beans.xml");
         Performer pf=(Performer) ctx.getBean("kenny2");
         pf.perform();
         System.out.println("Hello wold");
