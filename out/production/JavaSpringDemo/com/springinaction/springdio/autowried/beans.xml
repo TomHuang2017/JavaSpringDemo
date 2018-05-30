@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="duke" class="com.springinaction.springdio.autowried.Juggler"></bean>
+    <bean id="sonnect29" class="com.springinaction.springdio.autowried.Sonnect29"></bean>
+    <bean id="poeticDuke" class="com.springinaction.springdio.autowried.PoeticJuggler">
+        <constructor-arg value="15"></constructor-arg>
+        <constructor-arg ref="sonnect29"></constructor-arg>
+    </bean>
+    <bean id="kenny" class="com.springinaction.springdio.autowried.Instrumentalist">
+        <property name="song" value="This is me"></property>
+    </bean>
+    <bean id="saxphone" class="com.springinaction.springdio.autowried.Saxophone"></bean>
+    <bean id="saxphone1" class="com.springinaction.springdio.autowried.Saxophone"></bean>
+    <bean id="kenny2" class="com.springinaction.springdio.autowried.Instrumentalist">
+        <property name="song" value="This is me"></property>
+    </bean>
+    <context:annotation-config></context:annotation-config>
+</beans>

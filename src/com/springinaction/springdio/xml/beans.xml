@@ -11,9 +11,8 @@
     <bean id="kenny" class="com.springinaction.springdio.xml.Instrumentalist">
         <property name="song" value="This is me"></property>
     </bean>
-    <bean id="saxphone" class="com.springinaction.springdio.xml.Saxophone"></bean>
-    <bean id="kenny2" class="com.springinaction.springdio.xml.Instrumentalist">
+    <bean id="instrument" class="com.springinaction.springdio.xml.Saxophone"></bean>
+    <bean id="kenny2" class="com.springinaction.springdio.xml.Instrumentalist" autowire="byName">
         <property name="song" value="This is me"></property>
-        <property name="instrument" ref="saxphone"></property>
     </bean>
 </beans>
