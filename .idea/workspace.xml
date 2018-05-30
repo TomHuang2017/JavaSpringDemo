@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9ce2e6-2fd6-4b70-b2c5-1c7f07bc2ea1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Instrumentalist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Juggler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Poem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/PoeticJuggler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Saxophone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Sonnect29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Say.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Speak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakNiHao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/xml/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/xml/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/autowried/Instrumentalist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/autowried/Instrumentalist.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,44 +26,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Saxophone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Saxophone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instrument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Instrument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instrumentalist.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Instrumentalist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="345">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +35,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/beans.xml">
+      <file leaf-file-name="Spoker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="220">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Speak.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Speak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpeakHello.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakHello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpeakNiHao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakNiHao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -115,9 +109,15 @@
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Juggler.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/xml/Instrumentalist.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml" />
-        <option value="$PROJECT_DIR$/src/com/Main.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/beans.xml" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Instrumentalist.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Speak.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/beans.xml" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Say.java" />
+        <option value="$PROJECT_DIR$/src/com/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakNiHao.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakHello.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java" />
       </list>
     </option>
   </component>
@@ -145,17 +145,13 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaSpringDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaSpringDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSpringDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaSpringDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -189,13 +185,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springdio" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="compont" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -213,13 +208,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\git_project\JavaSpringLearning\JavaSpringDemo\src\com\springinaction\springdio\autowried" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\git_project\JavaSpringLearning\JavaSpringDemo\src\com\springinaction\springdio\xml" />
       <recent name="E:\git_project\JavaSpringLearning\JavaSpringDemo\src" />
       <recent name="E:\git_project\JavaSpringLearning\JavaSpringDemo\src\com\springinaction\springdio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_project\JavaSpringLearning\JavaSpringDemo\src\com\springinaction\springdio\compont" />
+      <recent name="E:\git_project\JavaSpringLearning\JavaSpringDemo\src\com\springinaction\springdio\autowried" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,12 +301,13 @@
       <updated>1527495611206</updated>
       <workItem from="1527495615063" duration="5062000" />
       <workItem from="1527561142508" duration="5939000" />
-      <workItem from="1527644663050" duration="2637000" />
+      <workItem from="1527644663050" duration="7492000" />
+      <workItem from="1527669399666" duration="2359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13638000" />
+    <option name="totallyTimeSpent" value="20852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -326,12 +323,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41798106" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35173503" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1830161" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22693998" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -354,6 +351,50 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Speak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakNiHao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -393,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Performer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/PoeticJuggler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -547,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -575,17 +599,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/beans.xml">
+    <entry file="file://$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/autowried/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="273">
+          <caret line="20" selection-start-line="20" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Performer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Instrumentalist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="496">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Say.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakNiHao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Speak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
