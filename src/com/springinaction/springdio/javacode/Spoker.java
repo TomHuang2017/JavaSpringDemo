@@ -1,18 +1,18 @@
-package com.springinaction.springdio.compont;
+package com.springinaction.springdio.javacode;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import javax.inject.Inject;
-import javax.inject.Named;
-import javax.inject.Qualifier;
-
-@Named("my_speaker")
 public class Spoker implements Say {
-    //@Autowired
-    //@Qualifier("hello")
-    @Inject
-    @hello
+    public Speak getSpeak() {
+        return speak;
+    }
+
+    public void setSpeak(Speak speak) {
+        this.speak = speak;
+    }
+
     private Speak speak;
 
     public Spoker()

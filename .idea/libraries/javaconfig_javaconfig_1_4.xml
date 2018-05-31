@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="javaconfig:javaconfig:1.4" type="repository">
+    <properties maven-id="javaconfig:javaconfig:1.4" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javaconfig-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-3.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

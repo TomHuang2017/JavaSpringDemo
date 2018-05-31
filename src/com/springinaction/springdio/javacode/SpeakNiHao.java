@@ -1,12 +1,7 @@
-package com.springinaction.springdio.compont;
+package com.springinaction.springdio.javacode;
 
 import org.springframework.stereotype.Component;
 
-import javax.inject.Named;
-
-@Named("nihao")
-//@Component("nihao")
-@nihao
 public class SpeakNiHao implements Speak {
     @Override
     public void Say() {
