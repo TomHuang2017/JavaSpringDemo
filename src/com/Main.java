@@ -1,5 +1,6 @@
 package com;
 
+import com.springinaction.springdio.aspectJ.studentBLL;
 import com.springinaction.springdio.autowried.Performer;
 import com.springinaction.springdio.compont.Say;
 import com.springinaction.springdio.javacode.Spoker;
@@ -15,13 +16,14 @@ enum inactionType{
     autowried,
     compont,
     javacode,
-    xml
+    xml,
+    aspectJ
 }
 public class Main {
 
     public static void main(String[] args) {
 
-        callInterfaceFunction(inactionType.aop_xml);
+        callInterfaceFunction(inactionType.aspectJ);
     }
 
     public static void callInterfaceFunction(inactionType type) {
@@ -36,7 +38,7 @@ public class Main {
                 ApplicationContext ctx_aop_xml =
                         new ClassPathXmlApplicationContext("com/springinaction/springdio/aop_xml/beans.xml");
                 insertRecordIntoDB s = (insertRecordIntoDB) ctx_aop_xml.getBean("studentProxy");
-                s.insertRecord();
+                s.recordInsert();
                 break;
             case compont:
                 ApplicationContext ctx_compont = new ClassPathXmlApplicationContext("com/springinaction/springdio/compont/beans.xml");
@@ -53,6 +55,11 @@ public class Main {
                 ApplicationContext ctx_xml = new ClassPathXmlApplicationContext("com/springinaction/springdio/xml/beans.xml");
                 Instrumentalist pf_xml = (Instrumentalist) ctx_xml.getBean("kenny2");
                 pf_xml.perform();
+                break;
+            case aspectJ:
+                ApplicationContext appCtx = new ClassPathXmlApplicationContext("com/springinaction/springdio/aspectJ/beans.xml");
+                com.springinaction.springdio.aspectJ.studentBLL student = (com.springinaction.springdio.aspectJ.studentBLL)appCtx.getBean("student");
+                student.Insert();
                 break;
             default:
                 break;

@@ -14,5 +14,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.springframework:spring-context:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="javax.inject:javax.inject-tck:1" level="project" />
+    <orderEntry type="library" name="org.aspectj:aspectjrt:1.8.10" level="project" />
   </component>
 </module>
