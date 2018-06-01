@@ -1,5 +1,6 @@
 package com.springinaction.springdio.aop_xml;
 
+//正常业务-一个真实例子中的Student，插入表结构的例子，实现插入数据库的那个接口
 public class studentBLL implements insertRecordIntoDB {
     @Override
     public void insertRecord() {
