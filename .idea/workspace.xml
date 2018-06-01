@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9ce2e6-2fd6-4b70-b2c5-1c7f07bc2ea1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaconfig_javaconfig_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_inject_javax_inject_tck_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/nihao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/Say.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/Speak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakNiHao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/Spoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/insertRecordIntoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/logHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/studentBLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSpringDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSpringDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/compont/SpeakHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/compont/SpeakHello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/compont/SpeakNiHao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/compont/SpeakNiHao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/compont/Spoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/springinaction/springdio/compont/Spoker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakHello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakNiHao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakNiHao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/compont/hello.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +24,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="257">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,15 +33,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpeakConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakConfiguration.java">
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="184">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instrumentalist.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/Instrumentalist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentBLL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/studentBLL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertRecordIntoDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/insertRecordIntoDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/logHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,9 +101,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -100,7 +136,6 @@
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/java/beans.xml" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/beans.xml" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/nihao.java" />
-        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/hello.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakNiHao.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/SpeakHello.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java" />
@@ -108,6 +143,13 @@
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakHello.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakConfiguration.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/javacode/Spoker.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/compont/hello.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/AddLogInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/Student_BLL.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/insertRecordIntoDB.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/logHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/studentBLL.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/beans.xml" />
         <option value="$PROJECT_DIR$/src/com/Main.java" />
       </list>
     </option>
@@ -135,9 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,12 +208,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springdio" type="462c0819:PsiDirectoryNode" />
-              <item name="javacode" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,12 +333,14 @@
       <workItem from="1527692367447" duration="2240000" />
       <workItem from="1527722586844" duration="2009000" />
       <workItem from="1527729467442" duration="4620000" />
-      <workItem from="1527747815186" duration="4818000" />
+      <workItem from="1527747815186" duration="5428000" />
+      <workItem from="1527759817380" duration="1216000" />
+      <workItem from="1527807833669" duration="4439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34608000" />
+    <option name="totallyTimeSpent" value="40873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -312,7 +356,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33280757" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32176656" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -334,31 +378,31 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35173503" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22693998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329653" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -371,34 +415,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Saxophone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Instrumentalist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -540,20 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/Instrumentalist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/autowried/Saxophone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -603,37 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Speak.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/nihao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,10 +632,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/beans.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakHello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakNiHao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/Spoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -678,59 +697,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/Spoker.java">
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="207">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/Spoker.java">
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/compont/nihao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakNiHao.java">
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/studentBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/logHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/insertRecordIntoDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/beans.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        <state relative-caret-position="368">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/javacode/SpeakConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/xml/Instrumentalist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="257">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

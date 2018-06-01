@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="student" class="com.springinaction.springdio.aop_xml.studentBLL"></bean>
+
+    <bean id="logHelper" class="com.springinaction.springdio.aop_xml.logHelper"></bean>
+    <bean id="logPointCut" class="org.springframework.aop.support.JdkRegexpMethodPointcut">
+        <property name="pattern" value="insert.*"></property>
+    </bean>
+    <bean id="logHelperAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+        <property name="advice" ref="logHelper"></property>
+        <property name="pointcut" ref="logPointCut"></property>
+    </bean>
+
+
+    <bean id="studentProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="student"> </property>
+        <property name="interceptorNames" value="logHelperAdvisor"></property>
+        <property name="proxyInterfaces" value="com.springinaction.springdio.aop_xml.insertRecordIntoDB"></property>
+    </bean>
+</beans>
