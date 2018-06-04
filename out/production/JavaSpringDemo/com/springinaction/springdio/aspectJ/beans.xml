@@ -6,8 +6,9 @@
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/aop
-       http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <aop:aspectj-autoproxy />
     <bean id="student" class="com.springinaction.springdio.aspectJ.studentBLL"></bean>
+    <bean id="logHelper" class="com.springinaction.springdio.aspectJ.logHelper"></bean>
 
-    <aop:aspectj-autoproxy/>
 </beans>

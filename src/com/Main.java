@@ -58,8 +58,9 @@ public class Main {
                 break;
             case aspectJ:
                 ApplicationContext appCtx = new ClassPathXmlApplicationContext("com/springinaction/springdio/aspectJ/beans.xml");
-                com.springinaction.springdio.aspectJ.studentBLL student = (com.springinaction.springdio.aspectJ.studentBLL)appCtx.getBean("student");
-                student.Insert();
+                com.springinaction.springdio.aspectJ.insertRecordIntoDB student = (com.springinaction.springdio.aspectJ.insertRecordIntoDB)appCtx.getBean("student");
+                student.recordInsert();
+                System.out.println("aspectJ done!");
                 break;
             default:
                 break;

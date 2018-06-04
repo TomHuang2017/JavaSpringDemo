@@ -10,17 +10,17 @@ public class logHelper {
     public logHelper() {
     }
 
-    @Pointcut("execution(* *.Insert(..))")
-    public void insertRecordPointXX() {
+    @Pointcut("execution(* *.recordInsert(..))")
+    public void InsertPointCut() {
         System.out.println("This is a point function()");
     }
 
-    @Before("insertRecordPointXX()")
+    @Before("InsertPointCut()")
     public void preInsertRecordPointXXX() {
         System.out.println("pre insert and do something");
     }
 
-    @After("insertRecordPointXX()")
+    @After("InsertPointCut()")
     public void postInsertRecordPointXXX() {
         System.out.println("post insert and do something");
     }
