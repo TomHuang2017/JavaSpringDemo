@@ -7,6 +7,7 @@ import com.springinaction.springdio.javacode.Spoker;
 import com.springinaction.springdio.aop_xml.insertRecordIntoDB;
 import com.springinaction.springdio.xml.Instrument;
 import com.springinaction.springdio.xml.Instrumentalist;
+import org.springframework.cglib.core.Converter;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -59,8 +60,7 @@ public class Main {
             case aspectJ:
                 ApplicationContext appCtx = new ClassPathXmlApplicationContext("com/springinaction/springdio/aspectJ/beans.xml");
                 com.springinaction.springdio.aspectJ.insertRecordIntoDB student = (com.springinaction.springdio.aspectJ.insertRecordIntoDB)appCtx.getBean("student");
-                student.recordInsert();
-                System.out.println("aspectJ done!");
+                student.recordInsert(12,"tom");
                 break;
             default:
                 break;
