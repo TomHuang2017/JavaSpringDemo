@@ -18,13 +18,14 @@ enum inactionType{
     compont,
     javacode,
     xml,
-    aspectJ
+    aspectJ,
+    aspectJ_xml_WithAspectJNode
 }
 public class Main {
 
     public static void main(String[] args) {
 
-        callInterfaceFunction(inactionType.aspectJ);
+        callInterfaceFunction(inactionType.aspectJ_xml_WithAspectJNode);
     }
 
     public static void callInterfaceFunction(inactionType type) {
@@ -61,6 +62,11 @@ public class Main {
                 ApplicationContext appCtx = new ClassPathXmlApplicationContext("com/springinaction/springdio/aspectJ/beans.xml");
                 com.springinaction.springdio.aspectJ.insertRecordIntoDB student = (com.springinaction.springdio.aspectJ.insertRecordIntoDB)appCtx.getBean("student");
                 student.recordInsert(12,"tom");
+                break;
+            case aspectJ_xml_WithAspectJNode:
+                ApplicationContext appCtx_withAspectJNode = new ClassPathXmlApplicationContext("com/springinaction/springdio/aop_xml_withAopNode/beans.xml");
+                com.springinaction.springdio.aop_xml_withAopNode.insertRecordIntoDB studentx = (com.springinaction.springdio.aop_xml_withAopNode.insertRecordIntoDB)appCtx_withAspectJNode.getBean("student");
+                studentx.recordInsert(300,"tom and Joson");
                 break;
             default:
                 break;

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="student" class="com.springinaction.springdio.aop_xml_withAopNode.studentBLL"></bean>
+    <bean id="logHelper" class="com.springinaction.springdio.aop_xml_withAopNode.logHelper"></bean>
+    <aop:config>
+        <aop:aspect id="aspect" ref="logHelper">
+            <aop:pointcut
+                    expression="execution(* *.recordInsert(int,String)) and args(firstNumber,secondCode)"
+                    id="InsertPointCut" />
+            <aop:before method="preInsertRecordPointXXX" pointcut-ref="InsertPointCut" />
+            <aop:after method="postInsertRecordPointXXX" pointcut-ref="InsertPointCut" />
+            <aop:after-returning method="succeedInsertRecordPointXXX" pointcut-ref="InsertPointCut" />
+            <aop:after-throwing method="failedToInsertRecordPointXXX" pointcut-ref="InsertPointCut" />
+        </aop:aspect>
+    </aop:config>
+</beans>
