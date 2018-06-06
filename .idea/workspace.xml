@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee9ce2e6-2fd6-4b70-b2c5-1c7f07bc2ea1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/insertRecordIntoDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/logHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/studentBLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee9ce2e6-2fd6-4b70-b2c5-1c7f07bc2ea1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aspectJ/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aspectJ/logHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
@@ -106,9 +118,9 @@
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aspectJ/logHelper.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aspectJ/insertRecordIntoDB.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aspectJ/studentBLL.java" />
-        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/beans.xml" />
         <option value="$PROJECT_DIR$/src/com/Main.java" />
         <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/logHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/beans.xml" />
       </list>
     </option>
   </component>
@@ -315,12 +327,12 @@
       <workItem from="1527807833669" duration="15922000" />
       <workItem from="1527982408299" duration="2988000" />
       <workItem from="1528077088789" duration="5696000" />
-      <workItem from="1528240504447" duration="2414000" />
+      <workItem from="1528240504447" duration="2798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63454000" />
+    <option name="totallyTimeSpent" value="63838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -336,7 +348,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34542587" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34542587" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -684,24 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aspectJ/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aspectJ/insertRecordIntoDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -740,6 +738,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aspectJ/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springinaction/springdio/aop_xml_withAopNode/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -21,6 +21,4 @@
             <aop:after-throwing method="failedToInsertRecordPointXXX" pointcut-ref="InsertPointCut" />
         </aop:aspect>
     </aop:config>
-
-
 </beans>
