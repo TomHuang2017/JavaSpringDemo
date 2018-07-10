@@ -25,10 +25,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        callInterfaceFunction(inactionType.aspectJ_xml_WithAspectJNode);
+        callSpringInterfaceFunction(inactionType.aspectJ_xml_WithAspectJNode);
     }
 
-    public static void callInterfaceFunction(inactionType type) {
+    public static void callSpringInterfaceFunction(inactionType type) {
         switch (type) {
             case autowried:
                 ApplicationContext ctx = new ClassPathXmlApplicationContext("com/springinaction/springdio/autowried/beans.xml");
