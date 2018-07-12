@@ -8,6 +8,21 @@ public class MapPerformanceTest {
 
     public static void main(String[] args) {
         Map<Integer, Integer> map_test = new HashMap<Integer, Integer>();
+        map_test.put(1,null);
+        map_test.put(1,1);
+        map_test.put(1,2);
+        Integer put_return;
+        put_return=map_test.putIfAbsent(2,null);
+        System.out.println("first : "+put_return);
+        put_return=map_test.putIfAbsent(2,1);
+        System.out.println("second : "+put_return);
+        put_return=map_test.putIfAbsent(2,2);
+        System.out.println("third : "+put_return);
+        System.out.println("1: "+map_test.get(1));
+        System.out.println("2: "+map_test.get(2));
+
+
+
         for (int i = 0; i < 1000000; i++) {
             map_test.put(i, i);
         }
