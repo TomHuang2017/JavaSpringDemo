@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hadoopMapReduce" />
         <module name="SpringBootDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hadoopMapReduce" target="1.5" />
       <module name="SpringBootDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaSpringDemo.iml" filepath="$PROJECT_DIR$/JavaSpringDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" filepath="$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoopMapReduce/hadoopMapReduce.iml" filepath="$PROJECT_DIR$/hadoopMapReduce/hadoopMapReduce.iml" />
     </modules>
   </component>
 </project>
