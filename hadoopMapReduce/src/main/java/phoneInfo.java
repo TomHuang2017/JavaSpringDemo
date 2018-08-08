@@ -1,4 +1,12 @@
-public class phoneInfo {
+import org.apache.hadoop.io.Writable;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+//这个自定义的phoneInfo必须继承Writable类，且要实现write和readFields两个方法，
+//同时要重写toString()方法，因为该方法决定了输出到最后的文件里的格式
+public class phoneInfo implements Writable {
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -36,4 +44,25 @@ public class phoneInfo {
     }
 
     private double avgPhoneVolume;
+
+    //必须重写该write方法
+    public void write(DataOutput out) throws IOException{
+        out.writeInt(minPhoneVolume);
+        out.writeInt(maxPhoneVolume);
+        out.writeDouble(avgPhoneVolume);
+    }
+
+    //必须重写该readFields方法
+    public void readFields(DataInput in ) throws IOException{
+        setMinPhoneVolume(in.readInt());
+        setMaxPhoneVolume(in.readInt());
+        setAvgPhoneVolume(in.readInt());
+    }
+
+    @Override
+    public String toString()
+    {
+        //重写toString方法，下面的格式就是最后output文件夹下文件的存储内容里的格式
+        return getMinPhoneVolume()+","+getMaxPhoneVolume()+","+getAvgPhoneVolume();
+    }
 }
