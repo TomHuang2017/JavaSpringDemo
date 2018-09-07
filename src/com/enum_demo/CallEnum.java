@@ -7,7 +7,7 @@ public class CallEnum {
              ) {
             System.out.println(f.getByName()+" is "+f.getByColor()+" and ordinal is "+f.getByOrdinal());
         }
-
+        System.out.println(Food.Apple.toString());
         System.out.println(Food.Apple.toString());
     }
 }

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ee9ce2e6-2fd6-4b70-b2c5-1c7f07bc2ea1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/enum_demo/CallEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enum_demo/CallEnum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringBootDemo/target/" />
@@ -26,7 +27,7 @@
       <file leaf-file-name="helloword.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/helloword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
+            <state relative-caret-position="575">
               <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phonelist.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="phonelist.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
@@ -43,6 +44,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallEnum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/enum_demo/CallEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -59,7 +69,7 @@
       <file leaf-file-name="phoneInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/phoneInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="966">
               <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,7 +137,6 @@
         <option value="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/example/StudentInfo.java" />
         <option value="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/example/DemoHelloController.java" />
         <option value="$PROJECT_DIR$/src/com/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/enum_demo/CallEnum.java" />
         <option value="$PROJECT_DIR$/src/com/enum_demo/Food.java" />
         <option value="$PROJECT_DIR$/src/com/map_performance/MapPerformanceTest.java" />
         <option value="$PROJECT_DIR$/src/com/path_demo/test_file" />
@@ -143,6 +152,7 @@
         <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/helloword.java" />
         <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phoneInfo.java" />
         <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java" />
+        <option value="$PROJECT_DIR$/src/com/enum_demo/CallEnum.java" />
       </list>
     </option>
   </component>
@@ -177,6 +187,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,35 +199,18 @@
             <path>
               <item name="JavaSpringDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaSpringDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoopMapReduce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSpringDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoopMapReduce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaSpringDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaSpringDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoopMapReduce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSpringDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoopMapReduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enum_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,7 +223,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../kylin/kylin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -438,11 +433,12 @@
       <workItem from="1533714064100" duration="1184000" />
       <workItem from="1533786751419" duration="3418000" />
       <workItem from="1534926093395" duration="1308000" />
+      <workItem from="1536300556523" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165705000" />
+    <option name="totallyTimeSpent" value="165808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -458,8 +454,9 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32006368" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31900826" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.12738854" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
@@ -467,8 +464,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4410828" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11942675" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18667643" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37190083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -477,30 +474,29 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.12738854" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.329429" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35173503" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22693998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35173503" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -509,7 +505,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329653" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -762,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/enum_demo/CallEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/enum_demo/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -911,7 +900,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/helloword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="575">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -921,7 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/phoneInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="966">
           <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -936,6 +925,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/enum_demo/CallEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
