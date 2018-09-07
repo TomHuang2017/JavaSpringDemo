@@ -86,6 +86,8 @@ public class phonelist {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(phoneInfo.class);
 
+        job.setNumReduceTasks(1);
+
         //设置输入输出的路径
         String inputPathString=args[0];
         String outPutPathString=args[1];
@@ -93,6 +95,7 @@ public class phonelist {
         System.out.println("main->outPutPath:"+outPutPathString);
 
         FileInputFormat.setInputPaths(job,new Path(inputPathString));
+        
         FileOutputFormat.setOutputPath(job,new Path(outPutPathString));
 
         //MR每次执行的时候，如果output文件夹存在就会报错

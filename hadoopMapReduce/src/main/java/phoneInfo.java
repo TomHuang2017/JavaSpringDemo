@@ -45,14 +45,14 @@ public class phoneInfo implements Writable {
 
     private double avgPhoneVolume;
 
-    //必须重写该write方法
+    //必须重写该write方法，写入是做序列化
     public void write(DataOutput out) throws IOException{
         out.writeInt(minPhoneVolume);
         out.writeInt(maxPhoneVolume);
         out.writeDouble(avgPhoneVolume);
     }
 
-    //必须重写该readFields方法
+    //必须重写该readFields方法，读出时做反序列化
     public void readFields(DataInput in ) throws IOException{
         setMinPhoneVolume(in.readInt());
         setMaxPhoneVolume(in.readInt());
@@ -63,6 +63,7 @@ public class phoneInfo implements Writable {
     public String toString()
     {
         //重写toString方法，下面的格式就是最后output文件夹下文件的存储内容里的格式
+        //加自定义的方法。
         return getMinPhoneVolume()+","+getMaxPhoneVolume()+","+getAvgPhoneVolume();
     }
 }
