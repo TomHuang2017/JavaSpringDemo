@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee9ce2e6-2fd6-4b70-b2c5-1c7f07bc2ea1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phoneInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phoneInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/target/classes/phoneInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/target/classes/phoneInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/target/classes/phonelist$phoneListMaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/target/classes/phonelist$phoneListMaper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/target/classes/phonelist$phoneListReduce.class" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/target/classes/phonelist$phoneListReduce.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/target/classes/phonelist.class" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/target/classes/phonelist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/target/hadoopMapReduce-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/target/hadoopMapReduce-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoopMapReduce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hadoopMapReduce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/dateUtil/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSpringDemo/com/dateUtil/DateUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringBootDemo/target/" />
@@ -34,7 +26,7 @@
       <file leaf-file-name="helloword.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/helloword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="23">
               <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phonelist.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="phonelist.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2357">
-              <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+            <state relative-caret-position="292">
+              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phoneInfo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Job.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0/hadoop-mapreduce-client-core-2.6.0.jar!/org/apache/hadoop/mapreduce/Job.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10212">
+              <caret line="490" column="16" selection-start-line="490" selection-start-column="16" selection-end-line="490" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phoneInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/phoneInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="532">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +141,8 @@
         <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/hadoop/mr/hellowrod/wordCountMapReduce.java" />
         <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/hadoop/mr/hellowrod/helloword.java" />
         <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/helloword.java" />
-        <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java" />
         <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phoneInfo.java" />
+        <option value="$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java" />
       </list>
     </option>
   </component>
@@ -175,9 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,14 +210,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaSpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,12 +435,14 @@
       <workItem from="1533350019016" duration="1442000" />
       <workItem from="1533440731016" duration="309000" />
       <workItem from="1533606337669" duration="26919000" />
-      <workItem from="1533714064100" duration="523000" />
+      <workItem from="1533714064100" duration="1184000" />
+      <workItem from="1533786751419" duration="3418000" />
+      <workItem from="1534926093395" duration="1308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160318000" />
+    <option name="totallyTimeSpent" value="165705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -469,7 +468,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.4410828" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.11942675" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18667643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18667643" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -486,27 +485,27 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35173503" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22693998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35173503" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
@@ -617,13 +616,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/devtool/Java/JDK/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -910,20 +902,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/hadoop/mr/hellowrod/wordCountMapReduce.java" />
     <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/hadoop/mr/hellowrod/helloword.java" />
-    <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/helloword.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0/hadoop-mapreduce-client-core-2.6.0.jar!/org/apache/hadoop/mapreduce/Job.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="10212">
+          <caret line="490" column="16" selection-start-line="490" selection-start-column="16" selection-end-line="490" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java">
+    <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/helloword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2357">
-          <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        <state relative-caret-position="23">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -932,8 +921,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/phoneInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="532">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoopMapReduce/src/main/java/phonelist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
